@@ -1,5 +1,7 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.PrintWriter;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -107,9 +109,9 @@ public class Main {
                 int index = str.indexOf(",");
                 c = str.substring(0, index);
                 str = str.substring(index + 1);
-                index = str.indexOf(",")
-                String te = str.substring(0, index);
-                t = Double.parseDouble(te);
+                index = str.indexOf(",");
+                String temp = str.substring(0, index);
+                t = Double.parseDouble(temp);
                 String hu = str.substring(index + 1);
                 h = Double.parseDouble(hu);
                 WeatherData weather = new WeatherData(c, t, h);
@@ -133,7 +135,7 @@ public class Main {
     public static void PrintWeatherData(ArrayList<WeatherData> weatherData)
     {
         for (WeatherData weatherDatum : weatherData) {
-            System.out.println(weatherDatum.getCity() + ", " + weatherDatum.getAverageTemp() + ", " + weatherDatum.getAverageHumidity());
+            System.out.println(weatherDatum.toString());
         }
     }
 
@@ -176,6 +178,14 @@ public class Main {
     public static void WriteFile(String path, boolean shouldAppend, ArrayList<WeatherData> weatherData)
     {
         // remove the line below and implement your function here
-        throw new UnsupportedOperationException();
+        try {
+            PrintWriter print= new PrintWriter(new FileOutputStream(new File(path), shouldAppend));
+            for (int i=0; i< weatherData.size(); i++){
+                print.write(weatherData.toString()+"\n");
+            }
+            print.close();
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

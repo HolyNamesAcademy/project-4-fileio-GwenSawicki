@@ -31,8 +31,8 @@ public class WeatherData implements Comparable<WeatherData> {
      */
     public String toString()
     {
-        // remove the line below and implement your function here
-        throw new UnsupportedOperationException();
+        String ln= city+", "+averageTemp+", "+averageHumidity;
+        return ln;
     }
 
     /*
