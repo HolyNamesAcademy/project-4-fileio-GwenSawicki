@@ -22,7 +22,7 @@ public class Main {
         ArrayList<WeatherData> weatherData = null;
         while (true)
         {
-            System.out.print("Enter a command: ");
+            System.out.print("Enter A command: ");
             Scanner sc = new Scanner(System.in);
 
             String command = sc.next().toLowerCase();
