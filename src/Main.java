@@ -181,7 +181,7 @@ public class Main {
         try {
             PrintWriter print= new PrintWriter(new FileOutputStream(new File(path), shouldAppend));
             for (int i=0; i< weatherData.size(); i++){
-                print.write(weatherData.toString()+"\n");
+                print.write(weatherData.get(i).toString()+"\n");
             }
             print.close();
         } catch (FileNotFoundException e) {

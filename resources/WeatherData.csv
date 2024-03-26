@@ -1,100 +1,200 @@
-﻿Albany  N.Y.,46.6,38.6
-Albuquerque  N.M.,55.6,9.47
-Anchorage  Alaska,36.3,16.08
-Asheville  N.C.,54.1,47.07
-Atlanta  Ga.,61.6,50.2
-Atlantic City  N.J.,50.6,40.59
-Austin  Texas,68.3,33.65
-Baltimore  Md.,53.2,41.94
-Baton Rouge  La.,66.6,63.08
-Billings  Mont.,46.1,14.77
-Birmingham  Ala.,61.3,53.99
-Bismarck  N.D.,43.3,16.84
-Boise  Idaho,50.6,12.19
-Boston  Mass.,48.3,42.53
-Bridgeport  Conn.,48.9,44.15
-Buffalo  N.Y.,45.3,40.54
-Burlington  Vt.,43.5,36.05
-Caribou  Maine,38.1,37.44
-Casper  Wyo.,42.7,13.03
-Charleston  S.C.,64.2,51.53
-Charleston  W.Va.,54.3,44.05
-Charlotte  N.C.,60.9,43.51
-Cheyenne  Wyo.,41.6,15.45
-Chicago  Ill.,47.8,36.27
-Cleveland  Ohio,47.6,38.71
-Columbia  S.C.,63.2,48.27
-Columbus  Ohio,52,38.52
-Concord  N.H.,44.6,37.6
-Dallas-Ft. Worth  Texas,65,34.73
-Denver  Colo.,47.6,15.81
-Des Moines  Iowa,50.6,34.72
-Detroit  Mich.,48.1,32.89
-Dodge City  Kan.,53.9,22.35
-Duluth  Minn.,39,31
-El Paso  Texas,64.6,9.43
-Fairbanks  Alaska,31.7,10.34
-Fargo  N.D.,43.5,21.19
-Grand Junction  Colo.,50.9,8.99
-Grand Rapids  Mich.,46.3,37.13
-Hartford  Conn.,48.9,46.16
-Helena  Mont.,44.1,11.32
-Honolulu  Hawaii,75.6,18.29
-Houston  Texas,68.5,47.84
-Indianapolis  Ind.,52,40.95
-Jackson  Miss.,63.4,55.95
-Jacksonville  Fla.,66.6,52.34
-Juneau  Alaska,40.8,58.33
-Kansas City  Mo.,54.4,37.98
-Knoxville  Tenn.,57.8,48.22
-Las Vegas  Nev.,66,4.49
-Lexington  Ky.,54.6,45.91
-Little Rock  Ark.,61.4,50.93
-Long Beach  Calif.,63,12.94
-Los Angeles  Calif.,60.8,13.15
-Louisville  Ky.,56.4,44.54
-Madison  Wisc.,45.9,32.95
-Memphis  Tenn.,62.1,54.65
-Miami  Fla.,75.7,58.53
-Milwaukee  Wisc.,45.2,34.81
-Minneapolis–St. Paul  Minn.,46.6,29.41
-Mobile  Ala.,66.1,66.29
-Montgomery  Ala.,64.3,54.77
-Mt. Washington  N.H.,22.9,101.91
-Nashville  Tenn.,58.5,48.11
-Newark  N.J.,52.3,46.25
-New Orleans  La.,68.2,64.16
-New York  N.Y.,52.5,49.69
-Norfolk  Va.,57.4,45.74
-Oklahoma City  Okla.,59.7,35.85
-Olympia  Wash.,47.4,50.79
-Omaha  Neb.,51.4,30.22
-Philadelphia  Pa.,53.1,42.05
-Phoenix  Ariz.,70.2,8.29
-Pittsburgh  Pa.,49.9,37.85
-Portland  Maine,43.7,45.83
-Portland  Ore.,51.2,37.07
-Providence  R.I.,48.6,46.45
-Raleigh  N.C.,59.1,43.05
-Reno  Nev.,48.6,7.48
-Richmond  Va.,57.1,43.91
-Roswell  N.M.,60.5,13.34
-Sacramento  Calif.,58.9,17.93
-Salt Lake City  Utah,50,16.5
-San Antonio  Texas,68.6,32.92
-San Diego  Calif.,62.6,10.77
-San Francisco  Calif.,56.2,20.11
-Savannah  Ga.,65.3,49.58
-Seattle-Tacoma  Wash.,50.2,37.07
-Sioux Falls  S.D.,45.7,24.69
-Spokane  Wash.,46.5,16.67
-Springfield  Ill.,52.8,35.56
-St. Louis  Mo.,56.6,38.75
-Tampa  Fla.,71.5,44.77
-Toledo  Ohio,48.3,33.21
-Tucson  Ariz.,66,12.17
-Tulsa  Okla.,60.8,42.42
-Vero Beach  Fla.,71.5,51.93
-Washington  D.C.,56.1,39.35
-Wichita  Kan.,55.3,30.38
-Wilmington  Del.,52.4,42.81
+Miami  Fla., 75.7, 58.53
+Fairbanks  Alaska, 31.7, 10.34
+Honolulu  Hawaii, 75.6, 18.29
+Tampa  Fla., 71.5, 44.77
+Vero Beach  Fla., 71.5, 51.93
+Phoenix  Ariz., 70.2, 8.29
+San Antonio  Texas, 68.6, 32.92
+Houston  Texas, 68.5, 47.84
+Austin  Texas, 68.3, 33.65
+New Orleans  La., 68.2, 64.16
+Jacksonville  Fla., 66.6, 52.34
+Baton Rouge  La., 66.6, 63.08
+Mobile  Ala., 66.1, 66.29
+Las Vegas  Nev., 66.0, 4.49
+Tucson  Ariz., 66.0, 12.17
+Savannah  Ga., 65.3, 49.58
+Dallas-Ft. Worth  Texas, 65.0, 34.73
+El Paso  Texas, 64.6, 9.43
+Montgomery  Ala., 64.3, 54.77
+Jackson  Miss., 63.4, 55.95
+Charleston  S.C., 64.2, 51.53
+Columbia  S.C., 63.2, 48.27
+Long Beach  Calif., 63.0, 12.94
+San Diego  Calif., 62.6, 10.77
+Memphis  Tenn., 62.1, 54.65
+Atlanta  Ga., 61.6, 50.2
+Little Rock  Ark., 61.4, 50.93
+Birmingham  Ala., 61.3, 53.99
+Charlotte  N.C., 60.9, 43.51
+Los Angeles  Calif., 60.8, 13.15
+Tulsa  Okla., 60.8, 42.42
+Roswell  N.M., 60.5, 13.34
+Oklahoma City  Okla., 59.7, 35.85
+Raleigh  N.C., 59.1, 43.05
+Sacramento  Calif., 58.9, 17.93
+Nashville  Tenn., 58.5, 48.11
+Knoxville  Tenn., 57.8, 48.22
+Norfolk  Va., 57.4, 45.74
+Richmond  Va., 57.1, 43.91
+St. Louis  Mo., 56.6, 38.75
+Louisville  Ky., 56.4, 44.54
+San Francisco  Calif., 56.2, 20.11
+Washington  D.C., 56.1, 39.35
+Albuquerque  N.M., 55.6, 9.47
+Wichita  Kan., 55.3, 30.38
+Lexington  Ky., 54.6, 45.91
+Kansas City  Mo., 54.4, 37.98
+Charleston  W.Va., 54.3, 44.05
+Asheville  N.C., 54.1, 47.07
+Dodge City  Kan., 53.9, 22.35
+Baltimore  Md., 53.2, 41.94
+Philadelphia  Pa., 53.1, 42.05
+Springfield  Ill., 52.8, 35.56
+New York  N.Y., 52.5, 49.69
+Wilmington  Del., 52.4, 42.81
+Newark  N.J., 52.3, 46.25
+Columbus  Ohio, 52.0, 38.52
+Indianapolis  Ind., 52.0, 40.95
+Omaha  Neb., 51.4, 30.22
+Portland  Ore., 51.2, 37.07
+Grand Junction  Colo., 50.9, 8.99
+Boise  Idaho, 50.6, 12.19
+Atlantic City  N.J., 50.6, 40.59
+Des Moines  Iowa, 50.6, 34.72
+Seattle-Tacoma  Wash., 50.2, 37.07
+Salt Lake City  Utah, 50.0, 16.5
+Pittsburgh  Pa., 49.9, 37.85
+Hartford  Conn., 48.9, 46.16
+Bridgeport  Conn., 48.9, 44.15
+Providence  R.I., 48.6, 46.45
+Reno  Nev., 48.6, 7.48
+Toledo  Ohio, 48.3, 33.21
+Boston  Mass., 48.3, 42.53
+Detroit  Mich., 48.1, 32.89
+Chicago  Ill., 47.8, 36.27
+Denver  Colo., 47.6, 15.81
+Cleveland  Ohio, 47.6, 38.71
+Olympia  Wash., 47.4, 50.79
+Minneapolis–St. Paul  Minn., 46.6, 29.41
+﻿Albany  N.Y., 46.6, 38.6
+Spokane  Wash., 46.5, 16.67
+Grand Rapids  Mich., 46.3, 37.13
+Madison  Wisc., 45.9, 32.95
+Billings  Mont., 46.1, 14.77
+Sioux Falls  S.D., 45.7, 24.69
+Buffalo  N.Y., 45.3, 40.54
+Milwaukee  Wisc., 45.2, 34.81
+Concord  N.H., 44.6, 37.6
+Helena  Mont., 44.1, 11.32
+Portland  Maine, 43.7, 45.83
+Fargo  N.D., 43.5, 21.19
+Burlington  Vt., 43.5, 36.05
+Bismarck  N.D., 43.3, 16.84
+Casper  Wyo., 42.7, 13.03
+Cheyenne  Wyo., 41.6, 15.45
+Juneau  Alaska, 40.8, 58.33
+Caribou  Maine, 38.1, 37.44
+Duluth  Minn., 39.0, 31.0
+Anchorage  Alaska, 36.3, 16.08
+Mt. Washington  N.H., 22.9, 101.91
+Miami  Fla., 75.7, 58.53
+Fairbanks  Alaska, 31.7, 10.34
+Honolulu  Hawaii, 75.6, 18.29
+Tampa  Fla., 71.5, 44.77
+Vero Beach  Fla., 71.5, 51.93
+Phoenix  Ariz., 70.2, 8.29
+San Antonio  Texas, 68.6, 32.92
+Houston  Texas, 68.5, 47.84
+Austin  Texas, 68.3, 33.65
+New Orleans  La., 68.2, 64.16
+Jacksonville  Fla., 66.6, 52.34
+Baton Rouge  La., 66.6, 63.08
+Mobile  Ala., 66.1, 66.29
+Las Vegas  Nev., 66.0, 4.49
+Tucson  Ariz., 66.0, 12.17
+Savannah  Ga., 65.3, 49.58
+Dallas-Ft. Worth  Texas, 65.0, 34.73
+El Paso  Texas, 64.6, 9.43
+Montgomery  Ala., 64.3, 54.77
+Jackson  Miss., 63.4, 55.95
+Charleston  S.C., 64.2, 51.53
+Columbia  S.C., 63.2, 48.27
+Long Beach  Calif., 63.0, 12.94
+San Diego  Calif., 62.6, 10.77
+Memphis  Tenn., 62.1, 54.65
+Atlanta  Ga., 61.6, 50.2
+Little Rock  Ark., 61.4, 50.93
+Birmingham  Ala., 61.3, 53.99
+Charlotte  N.C., 60.9, 43.51
+Los Angeles  Calif., 60.8, 13.15
+Tulsa  Okla., 60.8, 42.42
+Roswell  N.M., 60.5, 13.34
+Oklahoma City  Okla., 59.7, 35.85
+Raleigh  N.C., 59.1, 43.05
+Sacramento  Calif., 58.9, 17.93
+Nashville  Tenn., 58.5, 48.11
+Knoxville  Tenn., 57.8, 48.22
+Norfolk  Va., 57.4, 45.74
+Richmond  Va., 57.1, 43.91
+St. Louis  Mo., 56.6, 38.75
+Louisville  Ky., 56.4, 44.54
+San Francisco  Calif., 56.2, 20.11
+Washington  D.C., 56.1, 39.35
+Albuquerque  N.M., 55.6, 9.47
+Wichita  Kan., 55.3, 30.38
+Lexington  Ky., 54.6, 45.91
+Kansas City  Mo., 54.4, 37.98
+Charleston  W.Va., 54.3, 44.05
+Asheville  N.C., 54.1, 47.07
+Dodge City  Kan., 53.9, 22.35
+Baltimore  Md., 53.2, 41.94
+Philadelphia  Pa., 53.1, 42.05
+Springfield  Ill., 52.8, 35.56
+New York  N.Y., 52.5, 49.69
+Wilmington  Del., 52.4, 42.81
+Newark  N.J., 52.3, 46.25
+Columbus  Ohio, 52.0, 38.52
+Indianapolis  Ind., 52.0, 40.95
+Omaha  Neb., 51.4, 30.22
+Portland  Ore., 51.2, 37.07
+Grand Junction  Colo., 50.9, 8.99
+Boise  Idaho, 50.6, 12.19
+Atlantic City  N.J., 50.6, 40.59
+Des Moines  Iowa, 50.6, 34.72
+Seattle-Tacoma  Wash., 50.2, 37.07
+Salt Lake City  Utah, 50.0, 16.5
+Pittsburgh  Pa., 49.9, 37.85
+Hartford  Conn., 48.9, 46.16
+Bridgeport  Conn., 48.9, 44.15
+Providence  R.I., 48.6, 46.45
+Reno  Nev., 48.6, 7.48
+Toledo  Ohio, 48.3, 33.21
+Boston  Mass., 48.3, 42.53
+Detroit  Mich., 48.1, 32.89
+Chicago  Ill., 47.8, 36.27
+Denver  Colo., 47.6, 15.81
+Cleveland  Ohio, 47.6, 38.71
+Olympia  Wash., 47.4, 50.79
+Minneapolis–St. Paul  Minn., 46.6, 29.41
+﻿Albany  N.Y., 46.6, 38.6
+Spokane  Wash., 46.5, 16.67
+Grand Rapids  Mich., 46.3, 37.13
+Madison  Wisc., 45.9, 32.95
+Billings  Mont., 46.1, 14.77
+Sioux Falls  S.D., 45.7, 24.69
+Buffalo  N.Y., 45.3, 40.54
+Milwaukee  Wisc., 45.2, 34.81
+Concord  N.H., 44.6, 37.6
+Helena  Mont., 44.1, 11.32
+Portland  Maine, 43.7, 45.83
+Fargo  N.D., 43.5, 21.19
+Burlington  Vt., 43.5, 36.05
+Bismarck  N.D., 43.3, 16.84
+Casper  Wyo., 42.7, 13.03
+Cheyenne  Wyo., 41.6, 15.45
+Juneau  Alaska, 40.8, 58.33
+Caribou  Maine, 38.1, 37.44
+Duluth  Minn., 39.0, 31.0
+Anchorage  Alaska, 36.3, 16.08
+Mt. Washington  N.H., 22.9, 101.91
