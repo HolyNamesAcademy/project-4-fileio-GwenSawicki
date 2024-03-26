@@ -1,5 +1,11 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.PrintWriter;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Scanner;
+
 
 public class Main {
 
@@ -16,7 +22,7 @@ public class Main {
         ArrayList<WeatherData> weatherData = null;
         while (true)
         {
-            System.out.print("Enter a command: ");
+            System.out.print("Enter A command: ");
             Scanner sc = new Scanner(System.in);
 
             String command = sc.next().toLowerCase();
@@ -88,10 +94,34 @@ public class Main {
     If the file does not exist, the function catches the exception, prints a message
     to the console, and return an empty (not null) array.
      */
-    public static ArrayList<WeatherData> ReadFile(String path)
-    {
-        // remove the line below and implement your function here
-        throw new UnsupportedOperationException();
+    public static ArrayList<WeatherData> ReadFile(String path) {
+        File myFile = new File(path);
+        ArrayList<WeatherData> wD = new ArrayList<WeatherData>();
+        try {
+            Scanner scan = new Scanner(myFile);
+            while (scan.hasNextLine()) {
+                String c = "";
+                double t = 0;
+                double h = 0;
+                //store file data
+                String str = scan.nextLine();
+
+                int index = str.indexOf(",");
+                c = str.substring(0, index);
+                str = str.substring(index + 1);
+                index = str.indexOf(",");
+                String temp = str.substring(0, index);
+                t = Double.parseDouble(temp);
+                String hu = str.substring(index + 1);
+                h = Double.parseDouble(hu);
+                WeatherData weather = new WeatherData(c, t, h);
+                wD.add(weather);
+            }
+
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+        return wD;
     }
 
     /*
@@ -104,17 +134,37 @@ public class Main {
      */
     public static void PrintWeatherData(ArrayList<WeatherData> weatherData)
     {
-        // remove the line below and implement your function here
-        throw new UnsupportedOperationException();
+        for (WeatherData weatherDatum : weatherData) {
+            System.out.println(weatherDatum.toString());
+        }
     }
 
     /*
     Sorts the given ArrayList from hottest average temperature to coldest average temperature
      */
-    public static void SortWeatherData(ArrayList<WeatherData> weatherData)
+    public static void SortWeatherData(ArrayList<WeatherData> weatherData) {
+        int minIndex;
+        for (int i = 0; i < weatherData.size() - 1; i++) {
+            minIndex = 1;
+            for (int j = i + 1; j < weatherData.size(); j++) {
+                if (weatherData.get(j).getAverageTemp() > weatherData.get(minIndex).getAverageTemp()) {
+                    minIndex = j;
+                }
+            }
+            if (minIndex != i) {
+                helper(i, minIndex, weatherData);
+            }
+        }
+        PrintWeatherData(weatherData);
+    }
+// helper method to do switchy swapping
+    public static void helper (int begin, int newI, ArrayList<WeatherData> wD)
     {
-        // remove the line below and implement your function here
-        throw new UnsupportedOperationException();
+        WeatherData a= wD.get(begin);
+        WeatherData b= wD.get(newI);
+        WeatherData c=a;
+        wD.set(begin, b);
+        wD.set(newI, c);
     }
 
     /*
@@ -128,6 +178,14 @@ public class Main {
     public static void WriteFile(String path, boolean shouldAppend, ArrayList<WeatherData> weatherData)
     {
         // remove the line below and implement your function here
-        throw new UnsupportedOperationException();
+        try {
+            PrintWriter print= new PrintWriter(new FileOutputStream(new File(path), shouldAppend));
+            for (int i=0; i< weatherData.size(); i++){
+                print.write(weatherData.get(i).toString()+"\n");
+            }
+            print.close();
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
